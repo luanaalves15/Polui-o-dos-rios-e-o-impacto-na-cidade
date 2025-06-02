@@ -1,0 +1,53 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+section {
+  margin: 20px;
+}
+
+.impacto-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.impacto-card h2 {
+  color: #00796b;
+}
+
+.impacto-card p {
+  line-height: 1.6;
+}
+
+.img-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.img-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
